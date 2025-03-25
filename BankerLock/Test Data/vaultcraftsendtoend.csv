@@ -1,0 +1,84 @@
+TC_ID,TC Name,TC Desciption,Test Step,Test Data,Expected Result,Actual Result
+TC_01,Login To VaultCraft,Admin should be able to Login to appl,Open the browser and Enter the URL ,https://localhost:8888,Login page should be displayed,Login page displayed
+,,,Enter valid Username ,Username: admin ,It should accept,username accepted
+,,,Enter valid pasword,password- Tesr@12,It should accept,password accepted
+,,,Click on sign button,N/A,Home page should be displayed,Home page  displayed
+TC_02,Create sub-banker,Admin should be able to create sub-banker,Navigate to Home Page click on sub- baker ,N/A,Add and manage button should be displayed,Add and manage button displayed
+,,,Click on add button,N/A,Create sub- banker page should be displayed,Create sub- banker page displayed
+,,,Enter valid details in username field, ramaKri,Data should be accepted,Data accepted
+,,,Enter valid details in fullname field,RamaKrishna,Data should be accepted,Data accepted
+,,,Enter valid details in email field,rama123@gmail.com,Data should be accepted,Data accepted
+,,,Enter valid details in mobileno field,9876543210,Data should be accepted,Data accepted
+,,,Enter valid details in pwd field,krishna123,Data should be accepted,Data accepted
+,,,Click on Submit button,N/A,sub- admin details added successfully popup should be displayed,sub- admin details added successfully popup displayed
+,,,click  on ok button,N/A,Create sub- banker page should be displayed,Create sub- banker page displayed
+TC_03,Manage sub- banker,Admin should be able to manage sub-banker,Click on sub- banker ,N/A,Add and manage button should be displayed,Add and manage button displayed
+,,,Click on manage button,N/A,Manage sub - banker page should be displayed,Manage sub - banker page  displayed
+,,,Enter valid detail in  search textfield,partha,Sub-banker details page should be displayed,Sub-banker details page displayed
+TC_04,Create locker type,Admin should be able to create locker type,click on locker type,N/A,Add and manage button should be displayed,Add and manage button displayed
+,,   ,Click on add button,N/A,Create locker type page should be displayed,Create locker type page displayed
+,,,choose size of locker,medium,admin can choose,able to choose
+,,,Enter valid detail in price textfield,10000,Data should be accepted,Data accepted
+,,,Click on Submit button,N/A,Locker type added successfully popup should be displayed,Locker type added successfully popup displayed
+,,,Click on ok button,N/A,Manage sub - banker page should be displayed,Manage sub - banker page  displayed
+TC_05,Manage locker type,Admin can manage locker type,click on locker type,N/A,Add and manage button should be displayed,Add and manage button displayed
+,,,Click on manage button,N/A,Manage locker type page should be displayed,Manage locker type page  displayed
+,,,Enter valid detail in  search textfield,small,locker  type page  should be displayed,locker  type page  displayed
+TC_06,Assign locker,Admin can able to assign locker,Click on assign locker,N/A,Add and manage button should be displayed,Add and manage button displayed
+,,,Click on add button,N/A,Add locker form page should be displayed,Add locker form page displayed
+,,,Enter valid data in each field & check status,fullname - parthasarathi,Data should be accepted,Data accepted
+,,,,email -partha123@gmail.com,Data should be accepted,Data accepted
+,,,,mobile-9876543210,Data should be accepted,Data accepted
+,,,,address- btm,Data should be accepted,Data accepted
+,,,,occupation- tester,Data should be accepted,Data accepted
+,,,,types of locker - medium,Data should be accepted,Data accepted
+,,,,locker no-121,Data should be accepted,Data accepted
+,,,,Name of nomine- naveen,Data should be accepted,Data accepted
+,,,,Relation with nomine- brother,Data should be accepted,Data accepted
+,,,,upload id & pic,Data should be accepted,Data accepted
+,,,Click on Submit button,N/A,Locker assign successfully popup should be displayed,Locker assign successfully popup displayed
+,,,Click on ok button,N/A,Add locker form page should be displayed,Add locker form page displayed
+TC_07,Manage Assign - locker,Admin can manage assign locker,Click on assign locker,N/A,Add and manage button should be displayed,Add and manage button displayed
+,,,Click on manage button,N/A,Manage assign locker page should be displayed,Manage assign locker page displayed
+,,,Enter valid details in search textfield,2816,Manage assigned locker page should be displayed,Manage assigned locker page displayed
+TC_08,Create Report,Admin can able to create Report,Click on Reports,N/A,B/W dates and search reports should be displayed,B/W dates and search reports  displayed
+,,,Click on B/w dates,N/A,B/w Dates Report Date Selection page should be displayed,B/w Dates Report Date Selection page displayed
+,,,Enter valid details in each field,From dates-01/01/2025,Data should be accepted,Data accepted
+,,,,To dates- 31/01/2025,Data should be accepted,Data accepted
+,,,Click on Submit button,N/A,B/w Dates Report Details From 01-01-2025 To 31-01-2025 should be displayed,B/w Dates Report Details From 01-01-2025 To 31-01-2025  displayed
+Tc_09,Search Report,Admin can able to search Reports,Click on Reports,N/A,B/W dates and search reports should be displayed,B/W dates and search reports displayed
+,,,Click on Search report,N/A,Search reports page should be displayed,Search reports page displayed
+,,,Enter valid data in search text field,2816,"Search Locker Details againt keyword ""2816"" details page should be displayed","Search Locker Details againt keyword ""2816"" details page displayed"
+Tc_10,Update About ,Admin can able to update about us,Click on pages ,N/A,about us and contact us button should be displayed,about us and contact us button displayed
+,,,Click on about us ,N/A,about us page should be displayed,about us page displayed
+,,,Enter valid details in each field,"page discrip- ""this is about us""",Data should be accepted,Data should be accepted
+,,,Click on Submit button,N/A,About Us has been updated popup should be displayed,About Us has been updated popup  displayed
+,,,Click on ok button,N/A,about us page should be displayed,about us page displayed
+TC_11,Update Contact,Admin can able to update contact us,click on contact us,N/A,contact us page should be displayed,contact us page displayed
+,,,Enter valid data in each field.,"page discrip- ""this is about us""",Data should be accepted,Data accepted
+,,,,email -partha123@gmail.com,Data should be accepted,Data accepted
+,,,,mobile-9876543210,Data should be accepted,Data accepted
+,,,Click on Submit button,N/A,Contact us updated popup should be displayed,Contact us updated popup  displayed
+,,,Click on ok button,N/A,contact us page should be displayed,contact us page displayed
+TC_12,Dashboard -subadmin,Admin can able to manage Sub-admin,Click on dashboard ,N/A,Dashboard page should be displayed,Dashboard page displayed
+,,,click on sub admin more info,N/A,Manage sub - banker page should be displayed,Manage sub - banker page  displayed
+TC_13,Dashboard -listed locker types,Admin can able to manage listed locker types,Click on dashboard ,N/A,Dashboard page should be displayed,Dashboard page displayed
+,,,click on listed lockertypes more info,N/A,Manage locker type page should be displayed,Manage locker type page displayed
+TC_14,Dashboard - assigned locker,Admin can able to manage Assigned locker,Click on dashboard ,N/A,Dashboard page should be displayed,Dashboard page displayed
+,,,Click on assign locker more info ,N/A,Manage assign locker page should be displayed,Manage assign locker page displayed
+TC_15,Manage profile,Admin can able to update Profile,click on Account settings,N/A,"Profile, change password and logout button should be display","Profile, change password and logout button displayed"
+,,,Click on profile,N/A,My profile page should be displayed,My profile page displayed
+,,,Enter valid data in each field,Username-admin,Data should be accepted,Data accepted
+,,,,fullname - Bank head,Data should be accepted,Data accepted
+,,,,Email -bank1@gmail.com,Data should be accepted,Data accepted
+,,,,mobile-1234567890,Data should be accepted,Data accepted
+,,,,Reg date-2022-11-30 00:00:00,Data should be accepted,Data accepted
+,,,click on update,N/A,Profile details updated successfully popup should be displayed,Profile details updated successfully popup displayed
+,,,Click on ok button,N/A,My profile page should be displayed,My profile page displayed
+TC_16,Change password,Admin can able to change password,click on Change password,N/A,Change password page should be displayed,Change password page  displayed
+,,,enter valid data in each field ,"current password- ""Test@12""",Data should be accepted,Data accepted
+,,,,"New password- ""Test@54321""",Data should be accepted,Data  accepted
+,,,,"confirm password- ""Test@54321""",Data should be accepted,Data accepted
+,,,click on change button,N/A,password change successfully popup should be displayed,password change successfully popup displayed
+,,,Click on ok button,N/A,Change password page should be displayed,Change password page displayed
+Tc_17,Logout from VaultCraft,Admin can able to logout,Click on logout button,N/A,Login page should be displayed,Login page displayed
