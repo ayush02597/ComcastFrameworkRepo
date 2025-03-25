@@ -33,9 +33,9 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 		// TODO Auto-generated method stub
 		ISuiteListener.super.onStart(suite);
 		System.out.println("Report configuration");
-
+		String time = new Date().toString().replace(" ", "_").replace(":", "_");
 		// spark report config
-		ExtentSparkReporter spark = new ExtentSparkReporter("./AdvanceReports/report.html");
+		ExtentSparkReporter spark = new ExtentSparkReporter("./AdvanceReports/report_"+time +".html");
 		spark.config().setDocumentTitle("crm Test Suit Result");
 		spark.config().setReportName("CRM Reports");
 		spark.config().setTheme(Theme.DARK);
